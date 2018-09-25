@@ -1,0 +1,252 @@
+/*Está é a folha de estilo da index*/
+/**
+Paleta de cores a serem seguidas
+
+- Navy Blue(Vulgo Azul Escurão): #0F1626
+- Leather(Muito leite e pouco café): #AB987A
+- Coral(ou Salmão): #FF533D
+- EGGSHEL(branco gelo): #F5F5F5
+**/
+body {
+    margin: 0 auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/*Incio Styles .topper*/
+div {
+    display: flex;
+    min-height: 100%;
+}
+
+nav#centerMenu li:hover{
+    background-color: #FC1111;
+}
+
+
+.topper #presentation {
+    width: 40%;
+    background-color: #0F1626;
+}
+
+.topper #presentation h2 {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 2.5em;
+    margin-top: 65%;
+}
+
+/*Incio Styles .topper #centerMenu*/
+.topper #centerMenu {
+    background-color: #FF533D;
+    text-align: center;
+    width: 40%;
+}
+
+.topper #centerMenu a {
+    color: #F5F5F5;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: ease-in 1s;
+}
+
+
+.topper #centerMenu ul {
+    list-style: none;
+    margin: 50% auto;
+    padding: 2% 0% 2% 0%;
+}
+
+.topper #centerMenu ul li {
+    padding: 1.5% 0% 1.5% 0%;
+    transition: background-color .8s;
+
+}
+
+/*Fim Styles .topper #center menu*/
+/*-------------------------------*/
+/*Inicio Styles .topper #rightPhoto*/
+
+.topper #rightPhoto {
+    background-color: #AB987A;
+    color: #F5F5F5;
+    width: 40%;
+}
+
+.topper #rightPhoto figure {
+    /*	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;*/
+}
+
+.topper #rightPhoto figure img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*fim Styles .topper*/
+
+/*Inicio Styles Section*/
+
+.about {
+    padding: 2.5%;
+    color: #F5F5F5;
+    background-color: #0F1626;
+    display: inherit;
+    height: 100%;
+
+}
+
+.about p {
+    margin: 0px;
+    padding: .8em .8em .8em 0;
+
+    font-size: 1.2em;
+    text-align: justify;
+
+    width: 60%;
+
+}
+
+.about h1 {
+    margin: 1.2em 0 1.5em 0;
+}
+
+.experience {
+    padding: 2.5%;
+    color: #F5F5F5;
+    background-color: #FF533D;
+    display: inherit;
+    min-height: 100%;
+}
+
+.hability {
+    padding: 2.5%;
+    background-color: #AB987A;
+    color: #F5F5F5;
+    display: inherit;
+    min-height: 100%;
+}
+
+.awards {
+    padding: 2.5%;
+    color: #0F1626;
+    background-color: #F5F5F5;
+    display: inherit;
+    min-height: 100%;
+
+}
+
+/*Fim Styles Section*/
+
+/*Inicio Styles titleSection*/
+#titleSection {
+    font-family: Open Sans, sans-serif;
+    font-weight: bolder;
+    font-size: 4em;
+    margin-bottom: .9em;
+}
+
+/*fim Styles titleSection*/
+
+/*Inicio Style Voltar ao Topo*/
+.voltarAoTopo {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: .9em;
+    padding: 1em;
+    transform:scaleX(2em);
+}
+
+.voltarAoTopo:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+/*Fim Style Voltar ao Topo*/
+
+div.progress{
+    height: 2em;
+    width: 40%;
+    background-color: #AB987A;
+    position: relative;
+    margin: .8em;
+}
+
+.progress #progressJava {
+	position: absolute;
+    height: 100%;
+    background-color: #FF533D;
+    animation: progress-animation+10s forwards;
+}
+
+.progress #progressJSF {
+	position: absolute;
+    height: 100%;
+    background-color: #FF533D;
+    animation: progress-animation1+10s forwards;
+}
+
+.progress #progressHTML5 {
+	position: absolute;
+    height: 100%;
+    background-color: #FF533D;
+    animation: progress-animation2+10s forwards;
+}
+.progress #progressCSS3 {
+	position: absolute;
+    height: 100%;
+    background-color: #FF533D;
+    animation: progress-animation3+10s forwards;
+}
+.progress #progressJS {
+	position: absolute;
+    height: 100%;
+    background-color: #FF533D;
+    animation: progress-animation4+10s forwards;
+}
+@keyframes progress-animation{
+    0%{ width: 0%;}
+    
+    100%{width: 80%}
+    
+}
+
+@keyframes progress-animation1{
+    0%{ width: 0%;}
+    
+    100%{width: 50%}
+    
+}
+
+@keyframes progress-animation2{
+    0%{ width: 0%;}
+    
+    100%{width: 80%}
+    
+}
+
+@keyframes progress-animation3{
+    0%{ width: 0%;}
+    
+    100%{width: 70%}   
+}
+
+@keyframes progress-animation4{
+    0%{ width: 0%;}
+    
+    100%{width: 60%}
+    
+}
+/*teste daqui para baixo*/
